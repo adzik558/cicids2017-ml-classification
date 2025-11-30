@@ -152,9 +152,7 @@ Drzewo decyzyjne - błedne klasyfikacje: </br>
 
 ## Tabela trafności przewidywań XGBoost i Drzewa decyzyjnego: </br>
 
-<img width="1203" height="108" alt="image" src="https://github.com/user-attachments/assets/59ef3675-3b79-4d93-99c7-a910975f36ac" />
-
-
+<img width="1198" height="103" alt="image" src="https://github.com/user-attachments/assets/ddbb3630-b5a8-4ae2-8564-dd90e0be75d0" />
 
 ---
 
