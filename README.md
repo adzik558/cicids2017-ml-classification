@@ -31,9 +31,6 @@ Ten projekt stanowi kompletną analizę zbioru **CICIDS2017**, obejmującą:
 - analizę klasteryzacji (KMeans, MiniBatchKMeans, GMM, BIRCH),
 - wizualizacje oraz wnioski.
 
-Pełna dokumentacja projektu znajduje się w:  
-`docs/klasteryzacja_xgboost_drzewa.pdf`
-
 ---
 
 ## Struktura repozytorium
@@ -42,8 +39,6 @@ Pełna dokumentacja projektu znajduje się w:
 cicids2017-ml-classification/
 ├── README.md
 ├── LICENSE
-├── docs/
-│   └── dokumentacja - demografia.pdf
 ├── src/
 │   └── analysis.R
 └── data/
