@@ -37,11 +37,12 @@ Ten projekt stanowi kompletną analizę zbioru **CICIDS2017**, obejmującą:
 ```plaintext
 cicids2017-ml-classification/
 ├── README.md
+├── requirements.txt
 ├── LICENSE
 ├── src/
-│   └── analysis.R
+│   └── clustering-and-classification-attack-types.ipynb
 └── data/
-    └── tablice_trwania_zycia_w_latach_1990-2022.xlsx
+    └── data
 ```
 
 ---
@@ -190,3 +191,15 @@ Ponadto: </br>
 - Klasteryzacja wykazuje realne segmenty ruchu (silhouette ~0.77 dla KMeans).
 - Dane wymagają intensywnego czyszczenia (odstające wartości, brakujące dane).
 
+
+## Jak uruchomić
+1. Zainstaluj R i RStudio
+2. Zainstaluj pakiety:
+install.packages(c("readxl","ggplot2","plotrix","dplyr"))
+3. Pobierz data/tablice_trwania_zycia.csv
+4. Pobierz src/demographic-analysis.R
+5. Otwórz plik demographic-analysis.R
+6. Zainstaluj wymagane biblioteki
+7. Wybierz ścieżkę danych (linijki od 3 do 13 w kodzie src/demographic-analysis.R
+8. Skompiluj kod
+9. Wyniki oraz wykresy zostaną wyświetlone w interfejsie R.
