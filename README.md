@@ -87,6 +87,7 @@ W projekcie użyto:
 ## Wyniki klasyfikacji 
 
 XGBoost - błędne klasyfikacje: </br>
+```
 | Prawdziwa klasa ↓ | Predykcja →      | Liczba błędów |
 | ----------------- | ---------------- | ------------- |
 | **BENIGN**        | 1 (Bot)          | 32            |
@@ -114,11 +115,11 @@ XGBoost - błędne klasyfikacje: </br>
 | **Infiltration**  | 0 (BENIGN)       | 1             |
 | **PortScan**      | 0 (BENIGN)       | 5             |
 |                   | 3 (DoS GE)       | 4             |
-
+```
 </br></br></br>
 
 Drzewo decyzyjne - błedne klasyfikacje: </br>
-
+```
 | Prawdziwa klasa ↓ | Predykcja →  | Liczba błędów |
 | ----------------- | ------------ | ------------- |
 | **BENIGN**        | 1 (Bot)      | 32            |
@@ -145,13 +146,14 @@ Drzewo decyzyjne - błedne klasyfikacje: </br>
 | **Infiltration**  | 0 (BENIGN)   | 1             |
 | **PortScan**      | 0 (BENIGN)   | 4             |
 |                   | 3 (DoS GE)   | 4             |
-
+```
 </br></br></br>
 ---
 
 ## Tabela trafności przewidywań XGBoost i Drzewa decyzyjnego: </br>
 
-<img width="1202" height="107" alt="image" src="https://github.com/user-attachments/assets/3053bcbd-397b-457b-9f05-3014628036b0" />
+<img width="1203" height="108" alt="image" src="https://github.com/user-attachments/assets/59ef3675-3b79-4d93-99c7-a910975f36ac" />
+
 
 
 ---
