@@ -83,10 +83,24 @@ W projekcie użyto:
 ### Klasteryzacja
 
 Testowane algorytmy:
-- KMeans  
-- MiniBatchKMeans  
-- Gaussian Mixture Models (GMM)  
-- BIRCH  
+- KMeans </br>
+<img width="993" height="671" alt="image" src="https://github.com/user-attachments/assets/a025c908-1718-49ae-ad65-4e4ac5de0f16" /> </br>
+
+- MiniBatchKMeans </br>
+<img width="908" height="612" alt="image" src="https://github.com/user-attachments/assets/6e2bc4df-8f65-4422-a038-0645a2426712" /> </br>
+
+- Gaussian Mixture Models (GMM) </br>
+<img width="1012" height="685" alt="image" src="https://github.com/user-attachments/assets/c082edb2-195e-4393-821f-d6fd3feda0ce" /> </br>
+
+- BIRCH </br>
+<img width="1010" height="605" alt="image" src="https://github.com/user-attachments/assets/10b83b4f-82ae-45cd-b6ef-0db8e5193cb0" /> </br>
+
+## Wyniki klasteryzacji
+<img width="745" height="682" alt="image" src="https://github.com/user-attachments/assets/04f91b72-03d7-4c4c-bf0e-836598cd46d8" /> </br>
+
+
+
+
 
 ---
 
