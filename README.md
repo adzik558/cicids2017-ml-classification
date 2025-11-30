@@ -80,7 +80,7 @@ W projekcie użyto:
 
 - Drzewo decyzyjne (wariant 1) </br>
 
-<img width="585" height="515" alt="image" src="https://github.com/user-attachments/assets/98087029-54cd-4a6d-9199-63be53163b9d" /> </br>
+<img width="370" height="349" alt="image" src="https://github.com/user-attachments/assets/eb91546a-516f-43ae-8b44-030ee87ae3f3" /> </br>
 
 
 ---
