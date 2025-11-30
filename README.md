@@ -103,7 +103,7 @@ Testowane algorytmy:
 
 ---
 ### Podsumowanie
-Główną różnicą pomiędzyklasyfikacją a klasteryzacją jest typ uczenia: </br>
+Główną różnicą pomiędzy klasyfikacją a klasteryzacją jest typ uczenia: </br>
 - Klasyfikacja jest zadaniem uczenia nadzorowanego, gdzie proces uczenia odbywa się na
 podstawie danych uczących z etykietami lub prawidłowymi odpowiedziami.
 - Klasteryzacja jest zadaniem uczenia nienadzorowanego, co oznacza, że nie ma dostępnych
@@ -115,7 +115,6 @@ Ponadto: </br>
 - Drzewo decyzyjne zachowuje się świetnie na niektórych próbkach (nawet 0.99 accuracy), ale znacznie gorzej na innych → podatność na overfitting.
 - Klasteryzacja wykazuje realne segmenty ruchu (silhouette ~0.77 dla KMeans).
 - Dane wymagają intensywnego czyszczenia (odstające wartości, brakujące dane).
-- PCA pozwala zauważyć naturalne skupiska ruchu + ataków.
 
 
 
