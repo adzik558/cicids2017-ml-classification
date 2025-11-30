@@ -19,8 +19,7 @@ Projekt został wykonany na bazie rzeczywistego zbioru **CICIDS2017**, zawieraj�
 - **CICIDS2017** – Canadian Institute for Cybersecurity  
 - Link: https://www.kaggle.com/datasets/cicdataset/cicids2017 
 
-Ze względu na rozmiar (setki MB / miliony wierszy) analizy wykonywane były na próbkach (30–50%), co dokładnie opisano w dokumentacji PDF.
-
+Ze względu na rozmiar (setki MB / miliony wierszy) analizy wykonywane były na próbkach (30–50%)
 ---
 
 Ten projekt stanowi kompletną analizę zbioru **CICIDS2017**, obejmującą:
