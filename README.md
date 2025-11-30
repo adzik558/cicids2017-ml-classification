@@ -56,11 +56,10 @@ cicids2017-ml-classification/
 
 W projekcie użyto:
 - XGBoost </br>
+
 <img width="639" height="456" alt="image" src="https://github.com/user-attachments/assets/ad0a93ef-f09e-4e06-91e7-24c6ad1de90e" /> </br>
 <img width="428" height="415" alt="image" src="https://github.com/user-attachments/assets/32d49099-c51c-40c9-89be-53e426dc4e4c" /> </br>
 <img width="524" height="449" alt="image" src="https://github.com/user-attachments/assets/3bc5dd21-16e1-4f6d-8b68-c74528be4850" /> </br>
-
-
 
 
 - Drzewo decyzyjne (wariant 1) </br>
