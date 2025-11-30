@@ -110,7 +110,7 @@ XGBoost - błędne klasyfikacje: </br>
 | **PortScan**      | 0 (BENIGN)       | 5             |
 |                   | 3 (DoS GE)       | 4             |
 ```
-</br></br></br>
+</br></br>
 
 Drzewo decyzyjne - błedne klasyfikacje: </br>
 ```
