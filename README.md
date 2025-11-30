@@ -103,12 +103,14 @@ Testowane algorytmy:
 
 ---
 ### Podsumowanie
-Główną różnicą pomiędzyklasyfikacją a klasteryzacją jest typ uczenia:
+Główną różnicą pomiędzyklasyfikacją a klasteryzacją jest typ uczenia: </br>
 - Klasyfikacja jest zadaniem uczenia nadzorowanego, gdzie proces uczenia odbywa się na
 podstawie danych uczących z etykietami lub prawidłowymi odpowiedziami.
 - Klasteryzacja jest zadaniem uczenia nienadzorowanego, co oznacza, że nie ma dostępnych
 etykiet ani prawidłowych odpowiedzi w danych uczących. Celem klasteryzacji jest odkrycie
 struktury ukrytej w danych poprzez grupowanie podobnych obiektów.
+
+Ponadto: </br>
 - XGBoost jest zdecydowanie najlepszym modelem dla CICIDS2017.
 - Drzewo decyzyjne zachowuje się świetnie na niektórych próbkach (nawet 0.99 accuracy), ale znacznie gorzej na innych → podatność na overfitting.
 - Klasteryzacja wykazuje realne segmenty ruchu (silhouette ~0.77 dla KMeans).
