@@ -177,7 +177,7 @@ Testowane algorytmy:
 
 
 ---
-### Podsumowanie
+### Podsumowanie i wnioski
 Główną różnicą pomiędzy klasyfikacją a klasteryzacją jest typ uczenia: </br>
 - Klasyfikacja jest zadaniem uczenia nadzorowanego, gdzie proces uczenia odbywa się na
 podstawie danych uczących z etykietami lub prawidłowymi odpowiedziami.
@@ -193,13 +193,20 @@ Ponadto: </br>
 
 
 ## Jak uruchomić
-1. Zainstaluj R i RStudio
-2. Zainstaluj pakiety:
-install.packages(c("readxl","ggplot2","plotrix","dplyr"))
-3. Pobierz data/tablice_trwania_zycia.csv
-4. Pobierz src/demographic-analysis.R
-5. Otwórz plik demographic-analysis.R
-6. Zainstaluj wymagane biblioteki
-7. Wybierz ścieżkę danych (linijki od 3 do 13 w kodzie src/demographic-analysis.R
-8. Skompiluj kod
-9. Wyniki oraz wykresy zostaną wyświetlone w interfejsie R.
+1. Pobierz plik src/clustering-and-classification-attack-types
+2. Otwórz plik w Google Colab
+3. Pobierz plik z danymi (link w folderze data/data)
+4. Przejdź do Google Colab w przeglądarce
+5. Otwórz plik clustering-and-classification w Colabie
+6. Wgraj plik z wcześniej pobranymi danymi
+7. Skompiluj komórki
+8. Wyniki zostaną wyświetlone poniżej kompilowanych komórek
+
+## Uwagi techniczne
+
+- Notebook zawiera również komórki robocze, fragmenty eksperymentów oraz kod, który nie został uporządkowany po zakończeniu projektu.  
+  Zostały one pozostawione celowo, aby pokazać pełny proces pracy i analizę modeli.
+
+- Kompilacja całego notebooka może być czasochłonna.  
+  Ze względu na dużą liczbę rekordów w zbiorze CICIDS2017 (ponad 2.8 mln), pełne wykonanie kodu może trwać **od kilkunastu minut do nawet godziny**, w zależności od wydajności komputera.
+
