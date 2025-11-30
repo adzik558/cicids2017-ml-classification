@@ -74,7 +74,7 @@ cicids2017-ml-classification/
 W projekcie użyto:
 - XGBoost </br>
 
-<img width="428" height="415" alt="image" src="https://github.com/user-attachments/assets/32d49099-c51c-40c9-89be-53e426dc4e4c" /> </br>
+<img width="474" height="453" alt="image" src="https://github.com/user-attachments/assets/f96ee89a-462a-4b00-a23e-f0f632d09de9" /> </br>
 
 
 
