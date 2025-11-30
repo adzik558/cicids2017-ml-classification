@@ -10,10 +10,19 @@ oraz nienadzorowane (K-Means, MiniBatch K-Means, GMM, BIRCH).
 
 ---
 
-## Pliki znajdujące się w repozytorium
-- **Klasteryzacja_XGBoost_i_Drzewa_Decyzyjne.ipynb** – kompletny notebook z kodem analizy  
-- **Klasteryzacja_XGBoost_i_Drzewa_Decyzyjne.pdf** – pełna dokumentacja projektu (raport akademicki)
+## Struktura repozytorium
 
+```plaintext
+cicids2017-ml-classification/
+├── README.md
+├── LICENSE
+├── docs/
+│   └── dokumentacja - demografia.pdf
+├── src/
+│   └── analysis.R
+└── data/
+    └── tablice_trwania_zycia_w_latach_1990-2022.xlsx
+```
 ---
 
 ## Zbiór danych
