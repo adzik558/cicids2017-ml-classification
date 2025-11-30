@@ -53,12 +53,22 @@ cicids2017-ml-classification/
 ---
 
 
-### Zamiana nazw ataków na wartości numeryczne
+## Mapowanie etykiet (string → kod numeryczny)
 
-<img width="186" height="315" alt="image" src="https://github.com/user-attachments/assets/b8b7122c-b8d1-49fd-9ad9-47b0ff777a82" /> -> <img width="195" height="487" alt="image" src="https://github.com/user-attachments/assets/ab884a11-f449-4e58-ba9e-d3cf753380cb" />
+| Kod | Etykieta              |
+|-----|------------------------|
+| 0   | BENIGN                |
+| 1   | Bot                   |
+| 2   | DDoS                  |
+| 3   | DoS GoldenEye         |
+| 4   | DoS Hulk              |
+| 5   | DoS Slowhttptest      |
+| 6   | DoS slowloris         |
+| 7   | Heartbleed            |
+| 8   | Infiltration          |
+| 9   | PortScan              |
 
 ---
-
 ### Klasyfikacja
 
 W projekcie użyto:
