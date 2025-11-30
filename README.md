@@ -1,4 +1,4 @@
-<img width="1200" height="107" alt="image" src="https://github.com/user-attachments/assets/a1eccff2-d2ff-4405-b2a7-5490cb7fc53f" /># CICIDS2017 – Klasyfikacja ataków sieciowych (XGBoost, Drzewa decyzyjne, Klasteryzacja)
+# CICIDS2017 – Klasyfikacja ataków sieciowych (XGBoost, Drzewa decyzyjne, Klasteryzacja)
 
 ---
 
