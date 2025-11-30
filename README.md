@@ -74,6 +74,9 @@ W projekcie użyto:
 <img width="1504" height="489" alt="image" src="https://github.com/user-attachments/assets/03937e27-95b3-4b7f-94f0-b3410d0debd5" /> </br>
 
 ---
+## Wyniki klasyfikacji 
+
+<img width="912" height="111" alt="image" src="https://github.com/user-attachments/assets/377850b5-e163-4231-8879-e709054a4e27" />
 
 ---
 
