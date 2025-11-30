@@ -101,7 +101,19 @@ Testowane algorytmy:
 <img width="752" height="115" alt="image" src="https://github.com/user-attachments/assets/daa51061-feee-401a-8a81-38be7f9d3d04" />
 
 
-
+---
+### Podsumowanie
+Główną różnicą pomiędzyklasyfikacją a klasteryzacją jest typ uczenia:
+- Klasyfikacja jest zadaniem uczenia nadzorowanego, gdzie proces uczenia odbywa się na
+podstawie danych uczących z etykietami lub prawidłowymi odpowiedziami.
+- Klasteryzacja jest zadaniem uczenia nienadzorowanego, co oznacza, że nie ma dostępnych
+etykiet ani prawidłowych odpowiedzi w danych uczących. Celem klasteryzacji jest odkrycie
+struktury ukrytej w danych poprzez grupowanie podobnych obiektów.
+- XGBoost jest zdecydowanie najlepszym modelem dla CICIDS2017.
+- Drzewo decyzyjne zachowuje się świetnie na niektórych próbkach (nawet 0.99 accuracy), ale znacznie gorzej na innych → podatność na overfitting.
+- Klasteryzacja wykazuje realne segmenty ruchu (silhouette ~0.77 dla KMeans).
+- Dane wymagają intensywnego czyszczenia (odstające wartości, brakujące dane).
+- PCA pozwala zauważyć naturalne skupiska ruchu + ataków.
 
 
 
