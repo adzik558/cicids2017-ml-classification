@@ -58,7 +58,9 @@ W projekcie użyto:
 - XGBoost </br>
 
 <img width="639" height="456" alt="image" src="https://github.com/user-attachments/assets/ad0a93ef-f09e-4e06-91e7-24c6ad1de90e" /> </br>
+
 <img width="428" height="415" alt="image" src="https://github.com/user-attachments/assets/32d49099-c51c-40c9-89be-53e426dc4e4c" /> </br>
+
 <img width="524" height="449" alt="image" src="https://github.com/user-attachments/assets/3bc5dd21-16e1-4f6d-8b68-c74528be4850" /> </br>
 
 
@@ -83,15 +85,19 @@ W projekcie użyto:
 
 Testowane algorytmy:
 - KMeans </br>
+
 <img width="993" height="671" alt="image" src="https://github.com/user-attachments/assets/a025c908-1718-49ae-ad65-4e4ac5de0f16" /> </br>
 
 - MiniBatchKMeans </br>
+
 <img width="908" height="612" alt="image" src="https://github.com/user-attachments/assets/6e2bc4df-8f65-4422-a038-0645a2426712" /> </br>
 
 - Gaussian Mixture Models (GMM) </br>
+
 <img width="1012" height="685" alt="image" src="https://github.com/user-attachments/assets/c082edb2-195e-4393-821f-d6fd3feda0ce" /> </br>
 
 - BIRCH </br>
+
 <img width="1010" height="605" alt="image" src="https://github.com/user-attachments/assets/10b83b4f-82ae-45cd-b6ef-0db8e5193cb0" /> </br>
 
 ## Wyniki klasteryzacji
