@@ -78,9 +78,9 @@ W projekcie użyto:
 
 
 
-- Drzewo decyzyjne (wariant 1) </br>
+- Drzewo decyzyjne  </br>
 
-<img width="370" height="349" alt="image" src="https://github.com/user-attachments/assets/eb91546a-516f-43ae-8b44-030ee87ae3f3" /> </br>
+<img width="474" height="453" alt="image" src="https://github.com/user-attachments/assets/e4657310-f05d-4f90-a58e-69644863ce77" /> </br>
 
 
 ---
