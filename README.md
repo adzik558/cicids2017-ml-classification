@@ -55,7 +55,6 @@ cicids2017-ml-classification/
 ### Klasyfikacja
 
 W projekcie użyto:
-
 - XGBoost
 - Drzewo decyzyjne (2 warianty)
 
@@ -64,10 +63,10 @@ W projekcie użyto:
 ### Klasteryzacja
 
 Testowane algorytmy:
--KMeans
--MiniBatchKMeans
--Gaussian Mixture Models (GMM)
--BIRCH
+- KMeans  
+- MiniBatchKMeans  
+- Gaussian Mixture Models (GMM)  
+- BIRCH  
 
 ---
 
