@@ -1,4 +1,4 @@
-# CICIDS2017 – Klasyfikacja ataków sieciowych (XGBoost, Drzewa decyzyjne, Klasteryzacja)
+<img width="1200" height="107" alt="image" src="https://github.com/user-attachments/assets/a1eccff2-d2ff-4405-b2a7-5490cb7fc53f" /># CICIDS2017 – Klasyfikacja ataków sieciowych (XGBoost, Drzewa decyzyjne, Klasteryzacja)
 
 ---
 
@@ -86,7 +86,73 @@ W projekcie użyto:
 ---
 ## Wyniki klasyfikacji 
 
-<img width="912" height="111" alt="image" src="https://github.com/user-attachments/assets/377850b5-e163-4231-8879-e709054a4e27" />
+XGBoost - błędne klasyfikacje: </br>
+| Prawdziwa klasa ↓ | Predykcja →      | Liczba błędów |
+| ----------------- | ---------------- | ------------- |
+| **BENIGN**        | 1 (Bot)          | 32            |
+|                   | 2 (DDoS)         | 8             |
+|                   | 3 (DoS GE)       | 2             |
+|                   | 4 (DoS Hulk)     | 81            |
+|                   | 5 (Slowhttptest) | 11            |
+|                   | 6 (slowloris)    | 8             |
+|                   | 9 (PortScan)     | 65            |
+| **Bot**           | 0 (BENIGN)       | 61            |
+| **DDoS**          | 0 (BENIGN)       | 12            |
+|                   | 5 (Slowhttptest) | 1             |
+| **DoS GoldenEye** | 0 (BENIGN)       | 3             |
+|                   | 4 (DoS Hulk)     | 2             |
+| **DoS Hulk**      | 0 (BENIGN)       | 35            |
+|                   | 2 (DDoS)         | 2             |
+|                   | 3 (DoS GE)       | 1             |
+|                   | 9 (PortScan)     | 1             |
+| **Slowhttptest**  | 0 (BENIGN)       | 21            |
+|                   | 3 (DoS GE)       | 20            |
+| **slowloris**     | 0 (BENIGN)       | 11            |
+|                   | 4 (DoS Hulk)     | 1             |
+| **Heartbleed**    | 0 (BENIGN)       | 5             |
+|                   | 6 (slowloris)    | 1             |
+| **Infiltration**  | 0 (BENIGN)       | 1             |
+| **PortScan**      | 0 (BENIGN)       | 5             |
+|                   | 3 (DoS GE)       | 4             |
+
+</br></br></br>
+
+Drzewo decyzyjne - błedne klasyfikacje: </br>
+
+| Prawdziwa klasa ↓ | Predykcja →  | Liczba błędów |
+| ----------------- | ------------ | ------------- |
+| **BENIGN**        | 1 (Bot)      | 32            |
+|                   | 2 (DDoS)     | 2             |
+|                   | 3 (DoS GE)   | 8             |
+|                   | 4 (DoS Hulk) | 26            |
+|                   | 5 (Slowhttp) | 11            |
+|                   | 6 (slowl.)   | 8             |
+|                   | 9 (PortScan) | 64            |
+| **Bot**           | 0 (BENIGN)   | 32            |
+| **DDoS**          | 0 (BENIGN)   | 3             |
+|                   | 1 (Bot)      | 1             |
+|                   | 4 (DoS Hulk) | 1             |
+| **DoS GoldenEye** | 0 (BENIGN)   | 3             |
+|                   | 5 (Slowhttp) | 2             |
+| **DoS Hulk**      | 0 (BENIGN)   | 15            |
+|                   | 2 (DDoS)     | 2             |
+|                   | 3 (DoS GE)   | 1             |
+|                   | 9 (PortScan) | 1             |
+| **Slowhttptest**  | 0 (BENIGN)   | 9             |
+| **slowloris**     | 0 (BENIGN)   | 3             |
+|                   | 4 (DoS Hulk) | 1             |
+| **Heartbleed**    | 6 (slowl.)   | 1             |
+| **Infiltration**  | 0 (BENIGN)   | 1             |
+| **PortScan**      | 0 (BENIGN)   | 4             |
+|                   | 3 (DoS GE)   | 4             |
+
+</br></br></br>
+---
+
+## Tabela trafności przewidywań XGBoost i Drzewa decyzyjnego: </br>
+
+<img width="1202" height="107" alt="image" src="https://github.com/user-attachments/assets/3053bcbd-397b-457b-9f05-3014628036b0" />
+
 
 ---
 
