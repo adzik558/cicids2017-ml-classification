@@ -98,6 +98,9 @@ Testowane algorytmy:
 ## Wyniki klasteryzacji
 <img width="745" height="682" alt="image" src="https://github.com/user-attachments/assets/04f91b72-03d7-4c4c-bf0e-836598cd46d8" /> </br>
 
+<img width="752" height="115" alt="image" src="https://github.com/user-attachments/assets/daa51061-feee-401a-8a81-38be7f9d3d04" />
+
+
 
 
 
