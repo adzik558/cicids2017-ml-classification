@@ -58,15 +58,15 @@ W projekcie użyto:
 - XGBoost  
 <img width="639" height="456" alt="image" src="https://github.com/user-attachments/assets/ad0a93ef-f09e-4e06-91e7-24c6ad1de90e" />
 
-
 <img width="428" height="415" alt="image" src="https://github.com/user-attachments/assets/32d49099-c51c-40c9-89be-53e426dc4e4c" />  
-
 
 <img width="524" height="449" alt="image" src="https://github.com/user-attachments/assets/3bc5dd21-16e1-4f6d-8b68-c74528be4850" />  
 
 
 
-- Drzewo decyzyjne (wariant 1) 
+
+- Drzewo decyzyjne (wariant 1)
+
 <img width="585" height="515" alt="image" src="https://github.com/user-attachments/assets/98087029-54cd-4a6d-9199-63be53163b9d" />  
 
 
