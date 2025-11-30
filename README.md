@@ -121,6 +121,10 @@ Ponadto: </br>
 - Klasteryzacja wykazuje realne segmenty ruchu (silhouette ~0.77 dla KMeans).
 - Dane wymagają intensywnego czyszczenia (odstające wartości, brakujące dane).
 
+Zależnośći pomiędzy cechami w atakach ilustruje poniższa macierz korelacji: </br>
+
+<img width="1097" height="854" alt="image" src="https://github.com/user-attachments/assets/8a894d09-e93f-4e3a-b116-7461b9a78b4c" />
+
 
 
 ---
