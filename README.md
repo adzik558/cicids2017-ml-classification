@@ -142,7 +142,7 @@ Drzewo decyzyjne - błedne klasyfikacje: </br>
 | **PortScan**      | 0 (BENIGN)   | 4             |
 |                   | 3 (DoS GE)   | 4             |
 ```
-</br></br></br>
+</br>
 ---
 
 ## Tabela trafności przewidywań XGBoost i Drzewa decyzyjnego: </br>
