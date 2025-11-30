@@ -1,12 +1,38 @@
-# Klasyfikacja ataków sieciowych w zbiorze CICIDS2017 (Python, ML)
+# CICIDS2017 – Klasyfikacja ataków sieciowych (XGBoost, Drzewa decyzyjne, Klasteryzacja)
 
-Projekt dotyczy analizy zbioru danych **CICIDS2017**, który zawiera ruch sieciowy
-zawierający zarówno normalne połączenia, jak i różne typy ataków.
-Celem pracy było przygotowanie danych, budowa modeli klasyfikacyjnych oraz
-przetestowanie metod klasteryzacji w zadaniu wykrywania zagrożeń.
+---
 
-W projekcie wykorzystano modele nadzorowane (XGBoost, Drzewo decyzyjne)
-oraz nienadzorowane (K-Means, MiniBatch K-Means, GMM, BIRCH).
+## Opis projektu
+
+Celem projektu jest analiza zachowań ruchu sieciowego i wykrywanie ataków przy użyciu klasycznych metod machine learning.  
+Projekt został wykonany na bazie rzeczywistego zbioru **CICIDS2017**, zawierającego:  
+- obserwacje normalnego ruchu,  
+- ataki DDoS, DoS, Brute Force, Infiltration, Botnet, Web Attacks,  
+- ponad **80 cech numerycznych**.
+
+
+
+---
+
+### Źródło danych
+
+- **CICIDS2017** – Canadian Institute for Cybersecurity  
+- Link: https://www.kaggle.com/datasets/cicdataset/cicids2017 
+
+Ze względu na rozmiar (setki MB / miliony wierszy) analizy wykonywane były na próbkach (30–50%), co dokładnie opisano w dokumentacji PDF.
+
+---
+
+Ten projekt stanowi kompletną analizę zbioru **CICIDS2017**, obejmującą:
+- przygotowanie danych,
+- eksplorację i analizę statystyczną,
+- klasyfikację ataków (XGBoost, Drzewo Decyzyjne),
+- redukcję wymiarów (PCA),
+- analizę klasteryzacji (KMeans, MiniBatchKMeans, GMM, BIRCH),
+- wizualizacje oraz wnioski.
+
+Pełna dokumentacja projektu znajduje się w:  
+`docs/klasteryzacja_xgboost_drzewa.pdf`
 
 ---
 
@@ -23,64 +49,25 @@ cicids2017-ml-classification/
 └── data/
     └── tablice_trwania_zycia_w_latach_1990-2022.xlsx
 ```
----
-
-## Zbiór danych
-Pełny zbiór CICIDS2017 (nie jest dołączony do repozytorium ze względu na rozmiar):  
-➡ https://www.unb.ca/cic/datasets/ids-2017.html
-
-Aby uruchomić analizę, należy pobrać pliki CSV z sekcji *Machine Learning Ready*.
 
 ---
 
-## Ważna uwaga o danych
-Zbiór CICIDS2017 jest **silnie niezbalansowany** – ruch BENIGN stanowi większość danych,
-co wpływa na metryki oparte wyłącznie na accuracy.
+### Klasyfikacja
 
-W projekcie uwzględniono:
-- analizę macierzy pomyłek,  
-- wyniki dla poszczególnych klas,  
-- wizualizacje rozkładu klas i wyników modeli.
+W projekcie użyto:
 
-Przy dalszym rozwijaniu projektu rekomendowane jest zastosowanie:
-- F1-score (macro),  
-- stratified sampling,  
-- metod oversamplingu / undersamplingu.
+- XGBoost
+- Drzewo decyzyjne (2 warianty)
 
 ---
 
-## Wykorzystane modele
+### Klasteryzacja
 
-### Modele nadzorowane (supervised):
-- **XGBoost**
-- **Decision Tree Classifier**
-
-### Modele nienadzorowane (unsupervised):
-- **K-Means**
-- **MiniBatch K-Means**
-- **Gaussian Mixture Model (GMM)**
-- **BIRCH**
+Testowane algorytmy:
+-KMeans
+-MiniBatchKMeans
+-Gaussian Mixture Models (GMM)
+-BIRCH
 
 ---
 
-## Etapy przetwarzania danych
-- usunięcie braków danych  
-- usunięcie obserwacji odstających (IQR)  
-- skalowanie cech (StandardScaler)  
-- podział danych na zbiór treningowy i testowy  
-- próbkowanie danych z powodu ograniczeń pamięciowych (np. Google Colab)  
-- użycie `random_state=42` dla zachowania powtarzalności wyników  
-
----
-
-## Wyniki (podsumowanie)
-- model **XGBoost** uzyskał najwyższą skuteczność (wysokie accuracy),  
-- drzewo decyzyjne miało wyniki nieco słabsze, ale bardziej interpretowalne,  
-- algorytmy klasteryzacji tworzyły wyraźne grupy obserwacji,  
-- przeprowadzono analizę:  
-  - macierzy pomyłek,  
-  - ROC,  
-  - ważności cech,  
-  - silhouette score.  
-
-Szczegółowe wyniki znajdują się w załączonej dokumentacji PDF.
